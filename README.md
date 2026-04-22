@@ -126,7 +126,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone [[repo-url](https://github.com/Wannefdo/wii-group-frontend-challenge.git)]
+git clone https://github.com/Wannefdo/wii-group-frontend-challenge.git
 
 # Navigate into project
 cd menu-dashboard
@@ -175,8 +175,7 @@ Approximately **4 hours** as per challenge guidelines.
 
 ## 👤 Author
 
-**[Anne Fernando]**
-SE Undergraduate
+**Anne Fernando**  -  SE Undergraduate
 
 ---
 
