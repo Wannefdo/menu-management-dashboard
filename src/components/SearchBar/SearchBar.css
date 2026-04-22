@@ -1,0 +1,19 @@
+.searchWrap input {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 11px 12px;
+}
+.searchWrap input::placeholder {
+  color: var(--placeholder);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}

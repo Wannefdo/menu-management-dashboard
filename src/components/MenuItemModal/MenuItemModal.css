@@ -1,0 +1,99 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--overlay);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  z-index: 50;
+}
+
+.modal {
+  width: min(560px, 100%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.modalHeader {
+  padding: 16px 16px 10px;
+}
+.modalHeader h2 { margin: 0; }
+
+.modalForm {
+  padding: 0 16px 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.modalForm label {
+  display: grid;
+  gap: 6px;
+  font-size: 0.95rem;
+}
+
+.modalForm input,
+.modalForm textarea,
+.modalForm select {
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 10px 11px;
+}
+
+.errorText {
+  color: #ffb3b3;
+  font-size: 0.82rem;
+}
+
+.toggleRow {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggle {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--panel-2);
+  color: var(--text);
+  padding: 6px 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.toggle span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.toggle.on span { background: #2ac769; }
+.toggle.off span { background: #96a1b3; }
+
+.modalActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 4px;
+}
+.modalActions button {
+  border-radius: 9px;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+}
+.modalActions .ghost {
+  background: transparent;
+  color: var(--text);
+}
+.modalActions .solid {
+  background: var(--primary);
+  color: var(--primary-contrast);
+  border-color: transparent;
+  font-weight: 700;
+}
+.modalActions button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

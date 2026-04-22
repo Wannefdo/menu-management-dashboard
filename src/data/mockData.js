@@ -1,0 +1,68 @@
+export const mockServices = [
+  {
+    id: 1,
+    name: "Grilled Salmon",
+    category: "Main Courses",
+    price: 2800,
+    status: "active",
+    description: "Fresh Atlantic salmon with herb butter and seasonal vegetables",
+  },
+  {
+    id: 2,
+    name: "Caesar Salad",
+    category: "Starters",
+    price: 1200,
+    status: "active",
+    description: "Crisp romaine lettuce with house-made dressing and croutons",
+  },
+  {
+    id: 3,
+    name: "Truffle Risotto",
+    category: "Main Courses",
+    price: 3200,
+    status: "inactive",
+    description: "Creamy arborio rice with black truffle and parmesan",
+  },
+  {
+    id: 4,
+    name: "Chocolate Lava Cake",
+    category: "Desserts",
+    price: 1500,
+    status: "active",
+    description: "Warm chocolate cake with molten center and vanilla ice cream",
+  },
+  {
+    id: 5,
+    name: "Mojito",
+    category: "Beverages",
+    price: 950,
+    status: "active",
+    description: "Classic Cuban cocktail with fresh mint and lime",
+  },
+  {
+    id: 6,
+    name: "Bruschetta",
+    category: "Starters",
+    price: 850,
+    status: "active",
+    description: "Toasted bread topped with tomatoes, basil, and olive oil",
+  },
+  {
+    id: 7,
+    name: "Beef Tenderloin",
+    category: "Main Courses",
+    price: 4500,
+    status: "inactive",
+    description: "Premium cut with red wine reduction and mashed potatoes",
+  },
+  {
+    id: 8,
+    name: "Fresh Juice",
+    category: "Beverages",
+    price: 650,
+    status: "active",
+    description: "Seasonal fresh-pressed fruit juice",
+  },
+];
+
+export const categories = ["Starters", "Main Courses", "Desserts", "Beverages", "Specials"];
