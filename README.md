@@ -181,5 +181,5 @@ Approximately **4 hours** as per challenge guidelines.
 
 ## 📬 Submission
 
-* GitHub Repository: [[Repo Link](https://github.com/Wannefdo/wii-group-frontend-challenge.git)]
+* GitHub Repository: [[Repo Link](https://github.com/Wannefdo/menu-management-dashboard.git)]
 * Live Demo: [[Deployment Link](https://wiigroupfrontendtaskbyanne.netlify.app/)]
